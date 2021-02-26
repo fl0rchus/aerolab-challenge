@@ -26,8 +26,8 @@ function App() {
       }}
     >
       <Router>
-        <History exact path="/redeem-history" />
-        <Home exact path="/rewards-store" />
+        <History exact path="/aerolab-challenge-history" />
+        <Home exact path="/aerolab-challenge" />
       </Router>
     </userContext.Provider>
   );
