@@ -74,7 +74,7 @@ export default function ProductContainer() {
           justifyContent: "center",
         }}
       >
-        {loading ? currentArray : <Spinner />}
+        {loading ? <Spinner /> : currentArray}
       </div>
       <hr />
       <section className="d-flex justify-content-center mb-5">
