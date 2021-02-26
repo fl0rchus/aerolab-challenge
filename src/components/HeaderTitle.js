@@ -6,7 +6,7 @@ export const HeaderTitle = (props) => {
       <div className="jumbotron jumbotron-fluid ">
         <div className="container">
           <h1 className="display-4 animate__animated animate__fadeIn">
-            Rewards Store
+            Aerolab Challenge
           </h1>
           <p className="lead animate__animated animate__fadeIn">
             {props.subtitle}
