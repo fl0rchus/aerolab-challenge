@@ -47,7 +47,7 @@ export default function ProductContainer() {
   );
 
   return (
-    <div className="container animate__animated animate__backInUp">
+    <main className="container animate__animated animate__backInUp">
       <section className="d-flex justify-content-center mt-5">
         <button className="btnFilter btn" onClick={() => setSortData("recent")}>
           Most recent
@@ -66,14 +66,7 @@ export default function ProductContainer() {
         </button>
       </section>
       <hr />
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-        }}
-      >
+      <div className="container d-flex justify-content-center flex-wrap">
         {loading ? <Spinner /> : currentArray}
       </div>
       <hr />
@@ -93,6 +86,6 @@ export default function ProductContainer() {
           Prev
         </button>
       </section>
-    </div>
+    </main>
   );
 }
