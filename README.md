@@ -9,7 +9,7 @@ _Challenge tecnico con cambios en la UI provista para Aerolab cuyo objetivo prin
 * React hooks
 * Fetch API (POST y GET a la API provista por Aerolab)
 * Context API
-* Reach router
+* React router
 * React portals
 * Bootstrap
 
