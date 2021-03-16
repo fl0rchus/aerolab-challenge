@@ -1,6 +1,6 @@
 # Aerolab Challenge 🌟
 
-__Challenge tecnico con cambios en la UI provista para Aerolab cuyo objetivo principal es ayudar a los usuarios a canjear productos en base a un sistema de puntos_ 
+_Challenge tecnico con cambios en la UI provista para Aerolab cuyo objetivo principal es ayudar a los usuarios a canjear productos en base a un sistema de puntos_ 
 
 ## Stack
 
